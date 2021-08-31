@@ -1,22 +1,12 @@
 import "./css/layout.css";
 
-import data from "./data.json";
-import Card from "./Components/Card";
+// import data from "./data.json";
 
 function App() {
-  const dataHolder = data.data;
+  // const dataHolder = data.data;
   return (
     <div className="App">
-      <section className="contentContainer">
-        {dataHolder.map((user) => (
-          <Card
-            avatar={user.avatar}
-            fName={user.first_name}
-            lName={user.last_name}
-            email={user.email}
-          />
-        ))}
-      </section>
+      <p>hellow world</p>
     </div>
   );
 }
