@@ -5,16 +5,17 @@
       "email": "michael.lawson@reqres.in",
       "first_name": "Michael",
       "last_name": "Lawson",
-      "avatar": "https://reqres.in/img/faces/7-image.jpg",
-      "position": "Team Lead"
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "position": "Design Lead"
     },
     {
       "id": 2,
       "email": "lindsay.ferguson@reqres.in",
       "first_name": "Lindsay",
       "last_name": "Ferguson",
-      "avatar": "https://reqres.in/img/faces/8-image.jpg",
-      "position": "Lead Designer"
+
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "position": "Project Lead"
     },
     {
       "id": 3,
