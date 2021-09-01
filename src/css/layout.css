@@ -1,3 +1,4 @@
+@import url("https://fonts.google.com/specimen/roboto");
 *,
 *::before,
 *::after {
@@ -6,10 +7,94 @@
   box-sizing: border-box;
 }
 
+:root {
+  /*  Font Sizes */
+  --ff-prmy: "roboto", sans-serif;
+
+  --fs-prmy: 1.12rem;
+  --fs-sec: 1.5rem;
+  --fs-tri: 2rem;
+  --fs-four: 3rem;
+
+  /* font Weights */
+  --fw-prmy: 400; /* This is regular*/
+  --fw-sec: 500; /* This is medium*/
+  --fw-tri: 700; /* This is bold*/
+
+  --prmy-text-color: #171717;
+  --sec-text-color: #ffffff;
+
+  --prmy-col: #06192f;
+  --sec-col: #282c34;
+  --tri-col: #6ecbb2;
+  --acc-col: #13141a;
+  --acc-col-sec: #ffffff;
+  --acc-col-tri: #e7e7e7;
+
+  --background-Clr: #f7f9fc;
+  --background-Clr-sec: #f7f9fc;
+  --background-Clr-tri: #ffffff;
+
+  /* borderRadius */
+  --borderRadius: 30px;
+  --borderRadius-top: 5px 5px 0 0;
+  --borderRadius-btm: 0 0 5px 5px;
+  --boxShadow-prmy: 0 3px 6px 1px rgba(23, 23, 23, 0.06);
+}
+
 .App {
-  margin-top: 5rem;
   padding: 2rem;
 
   display: grid;
   place-items: center;
+
+  font-size: var(--fs-prmy);
+  font-weight: var(--fw-prmy);
+  font-family: var(--ff-prmy);
+
+  color: var(--prmy-text-color);
+  background-color: var(--background-Clr);
+}
+
+.cardContainer {
+  margin: 5rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.25rem;
+
+  padding: 3rem;
+
+  border-radius: var(--borderRadius);
+  background-color: var(--background-Clr-tri);
+  box-shadow: var(--boxShadow-prmy);
+}
+
+.card__Image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card__Name {
+  font-weight: var(--fw-tri);
+  font-size: var(--fs-sec);
+}
+
+.card__position,
+.card__Email {
+  font-size: 0.95rem;
+}
+
+.card__position {
+  font-weight: var(--fw-sec);
 }

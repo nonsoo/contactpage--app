@@ -22,7 +22,7 @@
       "first_name": "Tobias",
       "last_name": "Funke",
       "avatar": "https://reqres.in/img/faces/9-image.jpg",
-      "position": "Software Developer I"
+      "position": "Developer I"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "first_name": "Byron",
       "last_name": "Fields",
       "avatar": "https://reqres.in/img/faces/10-image.jpg",
-      "position": "Software Developer II"
+      "position": "Developer II"
     },
     {
       "id": 5,
@@ -46,7 +46,7 @@
       "first_name": "Rachel",
       "last_name": "Howell",
       "avatar": "https://reqres.in/img/faces/12-image.jpg",
-      "position": "Software Developer III"
+      "position": "Developer III"
     }
   ]
 }
