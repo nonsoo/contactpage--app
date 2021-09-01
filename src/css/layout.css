@@ -59,7 +59,7 @@
 .cardContainer {
   margin: 5rem 0;
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   justify-content: center;
 
   flex-wrap: wrap;
@@ -77,12 +77,21 @@
   border-radius: var(--borderRadius);
   background-color: var(--background-Clr-tri);
   box-shadow: var(--boxShadow-prmy);
+
+  transition: 300ms ease;
+}
+
+.card:hover {
+  transform: translateY(50px);
+  transform: scaleX(20px);
 }
 
 .card__Image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+
+  border: 6px solid #f5e3fa;
 }
 
 .card__Name {
@@ -90,7 +99,6 @@
   font-size: var(--fs-sec);
 }
 
-.card__position,
 .card__Email {
   font-size: 0.95rem;
 }
