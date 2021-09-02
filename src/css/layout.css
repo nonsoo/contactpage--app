@@ -82,8 +82,7 @@
 }
 
 .card:hover {
-  transform: translateY(50px);
-  transform: scaleX(20px);
+  transform: translateY(-50px);
 }
 
 .card__Image {
